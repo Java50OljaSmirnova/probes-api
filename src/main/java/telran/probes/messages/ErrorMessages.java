@@ -6,5 +6,6 @@ public interface ErrorMessages {
 	String MISSING_RANGE =  "missing range values for sensor";
 	String MISSING_MIN_VALUE =  "missing min value in range";
 	String MISSING_MAX_VALUE =  "missing max value in range";
+	String SENSOR_NOT_FOUND = "sensor not found";
 
 }
