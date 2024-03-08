@@ -1,8 +1,10 @@
 package telran.probes;
 
 public interface UrlConstants {
-	String RANGE_PROVIDER = "range/sensor/";
-	String EMAILS_PROVIDER = "emails/sensor/";
+	String RANGE = "range";
+	String EMAILS = "emails";
+	String SENSOR_RANGE = RANGE + "/sensor/";
+	String SENSOR_EMAILS = EMAILS + "/sensor/";
 	String SENSOR_ID = "sensorId";
 
 }
