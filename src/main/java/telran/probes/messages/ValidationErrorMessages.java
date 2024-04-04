@@ -7,7 +7,7 @@ public interface ValidationErrorMessages {
 	String MISSING_MIN_VALUE =  "missing min value in range";
 	String MISSING_MAX_VALUE =  "missing max value in range";
 	String MISSING_PASSWORD = "missing account password";
-	int MIN_CHARACTERS_SIZE_PASSWORD = 6;
+	int MIN_CHARACTERS_SIZE_PASSWORD = 8;
 	String ACCOUNT_PASSWORD_WRONG_LENGTH = "Length of account password cannot be less than " + MIN_CHARACTERS_SIZE_PASSWORD + " characters";
 
 }
