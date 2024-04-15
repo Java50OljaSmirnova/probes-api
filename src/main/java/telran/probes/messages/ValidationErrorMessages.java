@@ -9,5 +9,6 @@ public interface ValidationErrorMessages {
 	String MISSING_PASSWORD = "missing account password";
 	int MIN_CHARACTERS_SIZE_PASSWORD = 8;
 	String ACCOUNT_PASSWORD_WRONG_LENGTH = "Length of account password cannot be less than " + MIN_CHARACTERS_SIZE_PASSWORD + " characters";
-
+	String WRONG_EMAIL_FORMAT = "wrong email format";
+	
 }
